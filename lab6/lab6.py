@@ -58,7 +58,7 @@ def preprocess_data(df_in):
     df_y = df_out[TARGET_COL_NAME]
 
     X_train, X_test, y_train, y_test = train_test_split(
-        df_x, df_y, test_size=0.3, random_state=1)
+        df_x, df_y, test_size=0.2, random_state=1)
 
     return X_train, X_test, y_train, y_test
 
